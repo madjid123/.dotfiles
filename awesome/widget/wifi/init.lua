@@ -43,7 +43,9 @@ widget_button:buttons(
       1,
       nil,
       function()
-        awful.spawn('wicd-client -n')
+        -- awful.spawn('wicd-client -n')
+
+        awful.spawn('NetworkManager --no-deamon')
       end
     )
   )

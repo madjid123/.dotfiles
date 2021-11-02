@@ -18,7 +18,7 @@ local tags = {
   {
     icon = icons.social,
     type = 'social',
-    defaultApp = 'discord',
+    defaultApp = 'flatpak run com.discordapp.Discord',
     screen = 1
   },
   {

@@ -55,7 +55,7 @@ window {
 mainbox {
 	spacing:  0em;
 	padding: 0px;
-	width:200px;
+	width:400px;
 	children: [ inputbar, listview, sidebar ];
 	expand: true;
 }

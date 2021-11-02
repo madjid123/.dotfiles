@@ -28,7 +28,7 @@ local left_panel = function(screen)
 
   panel:struts(
     {
-      left = action_bar_width
+      left = action_bar_width 
     }
   )
 
@@ -70,7 +70,7 @@ local left_panel = function(screen)
   end
 
   local closePanel = function()
-    panel.width = action_bar_width
+    panel.width = action_bar_width - offsetx
     panel:get_children_by_id('panel_content')[1].visible = false
     backdrop.visible = false
     panel:emit_signal('closed')

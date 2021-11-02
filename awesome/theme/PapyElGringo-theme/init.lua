@@ -12,14 +12,14 @@ theme.font = 'Poppins 10'
 -- Primary
 theme.wallpaper = "#000000"
 theme.primary = mat_colors.indigo
-theme.primary.hue_500 = '#003f6b'
+theme.primary.hue_500 = '#021A2B'
 -- Accent
 theme.accent = mat_colors.pink
 
 -- Background
 theme.background = mat_colors.teal
 
-theme.background.hue_800 = '#231438'
+theme.background.hue_800 = '#26272E'
 --theme.background.hue_900 = '#121e25'
 
 local awesome_overrides = function(theme)
