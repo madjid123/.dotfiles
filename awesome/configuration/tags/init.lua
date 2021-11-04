@@ -6,7 +6,7 @@ local tags = {
   {
     icon = icons.chrome,
     type = 'chrome',
-    defaultApp = 'chromium',
+    defaultApp = 'flatpak run org.chromium.Chromium',
     screen = 1
   },
   {
@@ -36,13 +36,13 @@ local tags = {
   {
     icon = icons.game,
     type = 'game',
-    defaultApp = '',
+    defaultApp = 'steam',
     screen = 1
   },
   {
     icon = icons.lab,
     type = 'any',
-    defaultApp = '',
+    defaultApp = 'runJupyter',
     screen = 1
   }
 }

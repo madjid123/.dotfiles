@@ -10,16 +10,16 @@ theme.font = 'Poppins 10'
 -- Colors Pallets
 
 -- Primary
-theme.wallpaper = "#000000"
-theme.primary = mat_colors.indigo
-theme.primary.hue_500 = '#021A2B'
+theme.wallpaper = "#172124"
+theme.primary = mat_colors.deep_orange
+
 -- Accent
-theme.accent = mat_colors.pink
+theme.accent = mat_colors.teal
 
 -- Background
-theme.background = mat_colors.teal
+theme.background = mat_colors.grey
 
-theme.background.hue_800 = '#26272E'
+-- theme.background.hue_800 = '#26272E'
 --theme.background.hue_900 = '#121e25'
 
 local awesome_overrides = function(theme)

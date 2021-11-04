@@ -21,7 +21,7 @@ local left_panel = function(screen)
     bg = beautiful.background.hue_800,
     fg = beautiful.fg_normal,
     shape = gears.shape.rounded_rect,
-    shape_args = {dpi(32), dpi(32)}
+    shape_args = {dpi(46), dpi(46)}
   }
 
   panel.opened = false
